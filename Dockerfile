@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER Gregory DEPUILLE <gregory.depuille@gmail.com>
+LABEL maintainer "Gregory DEPUILLE <gregory.depuille@gmail.com>"
 
 # Les applis seront exposé sur le port 80
 EXPOSE 80
